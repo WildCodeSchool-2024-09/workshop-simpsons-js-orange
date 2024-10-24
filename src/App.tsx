@@ -17,7 +17,12 @@ function App() {
   };
 
   const simpsons = [homer, bart];
+  /*
 
+chunk-373CG7ZK.js?v=07b68a61:11553 Uncaught (in promise) 
+Error: Too many re-renders. React limits the number of renders 
+to prevent an infinite loop.
+  */
   return (
     <>
       {simpsons.map((simpson, i) => (
